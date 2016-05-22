@@ -1,0 +1,22 @@
+{
+  "name": "kottans-js-2016",
+  "version": "1.0.0",
+  "description": "homework modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1n0s/kottans-js-2016.git"
+  },
+  "author": "m1n0s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m1n0s/kottans-js-2016/issues"
+  },
+  "homepage": "https://github.com/m1n0s/kottans-js-2016#readme",
+  "dependencies": {
+    "posthtml": "^0.8.7"
+  }
+}
