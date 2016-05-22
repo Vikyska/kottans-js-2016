@@ -47,13 +47,8 @@ const plugin = tree => {
       })
 
       node.attrs = {
-        class: (newClassList.length) ? newClassList.join(' ') : null
-      }
-
-      if (jsAttr) {
-        node.attrs = {
-          'data-js': jsAttr.slice(0, -1)
-        }
+        class: (newClassList.length) ? newClassList.join(' ') : null,
+        'data-js': (jsAttr) ? jsAttr.slice(0, -1) : null
       }
 
       return node
