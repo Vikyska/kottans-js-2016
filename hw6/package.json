@@ -1,0 +1,17 @@
+{
+  "name": "hw6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./add.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies":
+  {
+    "mocha": "*",
+    "chai": "*",
+    "sinon": "*"
+  }
+}
